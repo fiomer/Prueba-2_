@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+    font-family: var(--font-content);
+    color: var(--general-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.cart-search a img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+    padding: 50px 0;
+}
+
+.hero-slider {
+    position: relative;
+}
+
+.hero-content img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.sale {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: gold;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: white;
+}
+
+.order-now {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.delicieux {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.delicieux h2 {
+    font-family: var(--font-title);
+    font-size: 2em;
+    color: var(--title-color);
+}
+
+.delicieux h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.award-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.award {
+    max-width: 300px;
+    text-align: center;
+}
+
+.award img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.intro-column {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.quote {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-color);
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-contact, .footer-hours {
+    max-width: 200px;
+}
+
+.payment-methods

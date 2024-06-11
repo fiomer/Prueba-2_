@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+
+root{
+	--menu-hover:#cd9b33;
+	--color-general:#666;
+	--color-titulos:#000;
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: #fff;
+	padding: 5px 0;
+	box-shadow: 0px 0px 5px 10px #f2f2f2;
+}
+footer #copyright{
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+body {
+    font-family: 'Lora', serif;
+    color: var(--color-general);
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 32px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 1em;
+}
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-slides {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.btn {
+    border-radius: 48px;
+    padding: 1em 2em;
+    background-color: #f0a82d;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid var;
+    font-family: 'Lora';
+    font-size: 1.2em;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.hero-slide {
+    position: relative;
+    text-align: center;
+}
+
+.discount {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background: gold;
+    color: white;
+    padding: 1em;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.order-now {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 16px 32px;
+    background: #fff;
+    color: #000(--color-titulos);
+    border: 2px solid var(--color-titulos);
+    font-family: 'Kaushan Script';
+    font-size: 15px;
+}
+
+.hero-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 32px;
+    padding: 16px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.hero-button.left {
+    left: 0;
+}
+
+.hero-button.right {
+    right: 0;
+}
+
+/* Delicieux Section */
+.delicieux {
+    text-align: center;
+    padding: 48px 0;
+}
+
+.delicieux h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 48px;
+    color: var(--color-titulos);
+    margin-bottom: 8px;
+}
+
+.delicieux p {
+    font-size: 19px;
+    margin-bottom: 32px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    max-width: 30%;
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100px;
+    margin-bottom: 1em;
+}
+
+.column h3 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    color: var(--color-titulos);
+}
+
+.column p {
+    font-size: 18px;
+    color: #828282;
+}
+
+
+footer {
+    background: 22202e;
+    color: #CCC;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+
+footer {
+    background: #22202e;
+    color: #CCC;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 1em;
+}
+
+.footer-column img {
+    max-width: 100px;
+    margin-bottom: 1em;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.footer-column p {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.social-media a {
+    margin: 0 0.5em;
+}
+
+.social-media img {
+    max-width: 20px;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.payment-methods img {
+    max-width: 40px;
+    margin: 0 0.5em;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        margin-bottom: 2em;
+    }
+}
+
+
+.footer-column {
+    flex: 1;
+    margin: 0 1em;
+    text-align: center;
+}
+
+.intro-column {
+	padding-left;
+}
+
+.footer-column h3 {
+    margin-bottom: 16px;
+}
+
+.footer-column .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.footer-column .social-media a {
+    margin: 0 8px;
+}
+
+.footer-column .payment-methods {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.footer-column .payment-methods img {
+    margin: 0 15px;
+}
+
+@media (max-width: 768px) {
+    .columns, .intro, footer {
+     flex-direction: column;
+		
+}
+	.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+	}
+  font-weight: 400;
+  font-style: normal;
+}
+
+	
